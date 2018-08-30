@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Thu, 23 Aug 2018 22:15:59 +0000 on https://dentalinnovationsinc.test
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.8 PHP: 5.6.31 (apache2handler, Darwin Wais-iMac.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64) MySQL: 5.6.37 WPLANG: en_US Server: Apache/2.4.27 (Unix) OpenSSL/1.0.1p PHP/5.6.31 safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 32.2M | 32.5M) multisite: N openssl: OpenSSL 1.0.1p 9 Jul 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (1) Free space on disk containing Updraft's temporary directory: 855137 MB
+0000.002 (1) This backup task (d5fdc15fe359) is either complete or began over 2 days ago: ending (1535062559.8243, ) (existing jobdata keys: )

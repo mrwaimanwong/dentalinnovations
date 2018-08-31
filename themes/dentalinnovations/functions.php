@@ -80,5 +80,7 @@ add_filter('body_class','my_class_names');
 
 add_filter('widget_text', 'do_shortcode');
 
+require_once( get_stylesheet_directory() . '/ww-lib/init.php');
+
 
 ?>

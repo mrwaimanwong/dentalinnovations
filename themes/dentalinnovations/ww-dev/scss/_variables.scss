@@ -1,0 +1,19 @@
+/* ## Variables
+-----------------------------------------------*/
+
+$font-stack-primary:    "Raleway", sans-serif;
+$font-stack-secondary:    "Barlow Semi Condensed", sans-serif;
+
+$color-primary: #21af9f;
+$color-primary-dark: darken(desaturate($color-primary, 20), 20);
+$color-primary-light: lighten(desaturate($color-primary, 5), 10);
+
+$color-secondary: #487092;
+$color-secondary-dark: #265176;
+$color-secondary-light: lighten(desaturate($color-secondary, 5), 10);
+
+$color-gray-dark: #191c21;
+$color-gray-medium: lighten($color-gray-dark, 10);
+$color-gray-light: lighten($color-gray-dark, 50);
+
+$shadow-primary: 1px 1px rgba(0, 0, 0, .75);

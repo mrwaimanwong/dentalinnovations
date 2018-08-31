@@ -1,0 +1,270 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,700");
+/* ## Variables
+-----------------------------------------------*/
+/* ## Mixins
+-----------------------------------------------*/
+.singleBannerWidget .banner_wrapper {
+  height: 500px; }
+  @media (min-width: 768px) {
+    .singleBannerWidget .banner_wrapper {
+      height: 933px; } }
+
+.singleBannerWidget .banner_wrapper .banner img {
+  height: 404px; }
+  @media (min-width: 768px) {
+    .singleBannerWidget .banner_wrapper .banner img {
+      height: 933px; } }
+
+.ww-banner::after {
+  content: "";
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1900px; }
+  @media (min-width: 576px) {
+    .ww-banner::after {
+      background-image: -webkit-gradient(linear, left top, right top, color-stop(45%, rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0)));
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85) 45%, rgba(0, 0, 0, 0)); } }
+
+.singleBannerWidget .banner_caption {
+  top: 22%;
+  padding: 0 0.5em;
+  text-align: center; }
+  @media (min-width: 576px) {
+    .singleBannerWidget .banner_caption {
+      padding: 0 0 0 4em;
+      text-align: left; } }
+  @media (min-width: 768px) {
+    .singleBannerWidget .banner_caption {
+      top: 25%; } }
+
+.singleBannerWidget .banner_caption_inner {
+  max-width: 100%; }
+  @media (min-width: 576px) {
+    .singleBannerWidget .banner_caption_inner {
+      max-width: 400px; } }
+  @media (min-width: 768px) {
+    .singleBannerWidget .banner_caption_inner {
+      max-width: 450px; } }
+  @media (min-width: 992px) {
+    .singleBannerWidget .banner_caption_inner {
+      max-width: 450px; } }
+  @media (min-width: 1200px) {
+    .singleBannerWidget .banner_caption_inner {
+      max-width: 450px; } }
+
+.ww-hero-text {
+  color: #fff;
+  line-height: inherit;
+  font-size: 33px;
+  font-size: 3.3rem; }
+  @media (min-width: 768px) {
+    .ww-hero-text {
+      font-size: 50px;
+      font-size: 5rem; } }
+  .ww-hero-text a,
+  .ww-hero-text span {
+    display: inline-block; }
+  .ww-hero-text .ww-hero-text-intro {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-size: 2.4rem;
+    color: #21af9f;
+    font-family: "Barlow Semi Condensed", sans-serif; }
+    @media (min-width: 768px) {
+      .ww-hero-text .ww-hero-text-intro {
+        font-size: 36px;
+        font-size: 3.6rem; } }
+  .ww-hero-text .ww-hero-text-bold {
+    font-size: 33px;
+    font-size: 3.3rem;
+    font-weight: 700; }
+    @media (min-width: 576px) {
+      .ww-hero-text .ww-hero-text-bold {
+        font-size: 46px;
+        font-size: 4.6rem; } }
+    @media (min-width: 768px) {
+      .ww-hero-text .ww-hero-text-bold {
+        font-size: 64px;
+        font-size: 6.4rem; } }
+
+.ww-cta {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #fff; }
+  .ww-cta .ww-cta-btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 100px;
+    background-color: #21af9f;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff; }
+    .ww-cta .ww-cta-btn:hover {
+      background-color: #32d1bf;
+      text-decoration: none; }
+  .ww-cta a {
+    color: #fff; }
+    .ww-cta a:hover {
+      text-decoration: underline; }
+
+.billboard .widget_custom_html {
+  margin-bottom: 0; }
+
+.billboard .wrap {
+  width: 100%;
+  max-width: 1900px;
+  background-color: #265176;
+  padding: 1em 2em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .billboard .wrap {
+      padding: 2em;
+      background-color: rgba(38, 81, 118, 0.8); } }
+  .billboard .wrap p {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.5; }
+    @media (min-width: 768px) {
+      .billboard .wrap p {
+        font-size: 18px;
+        font-size: 1.8rem; } }
+    .billboard .wrap p .ww-hero-banner-intro {
+      font-weight: 700;
+      font-style: italic;
+      text-transform: uppercase; }
+
+#ww-overlay {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  opacity: 0;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -999;
+  /*transition: all .5s ease-in-out;*/ }
+
+body.disable {
+  overflow: hidden;
+  /*position: fixed;*/ }
+
+#ww-overlay.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999; }
+
+#ww-overlay iframe {
+  width: 560px;
+  height: 315px;
+  max-width: 100%; }
+
+#ww-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer; }
+
+.icon {
+  display: inline-block;
+  color: #000;
+  width: 2.4em;
+  height: 2.4em;
+  fill: currentColor; }
+
+.icon-close {
+  padding-bottom: 0.25rem;
+  color: #fff;
+  font-size: 18px; }
+
+.icon-play-circle-o {
+  color: #555;
+  font-size: 10px;
+  padding: 0;
+  margin: 0 0 -.4rem;
+  line-height: 0; }
+
+#video2 {
+  display: none;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.ww-video-button {
+  display: block;
+  border: 1px solid #21af9f;
+  border-radius: 100px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #265176;
+  text-transform: uppercase;
+  background: url("/wp-content/themes/dentalinnovations/images/play_round.svg") 0.5em 50% no-repeat;
+  background-color: rgba(33, 175, 159, 0);
+  background-size: 1.2em;
+  width: 10em;
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding-left: 1em;
+  margin: 0.25em auto 0; }
+  .ww-video-button:hover {
+    background-color: #21af9f;
+    color: #fff; }
+
+.dmbs-content {
+  background: url("/wp-content/themes/dentalinnovations/images/green-content-bg.png") repeat-x; }
+  .dmbs-content .ww-header-container {
+    text-align: center; }
+    .dmbs-content .ww-header-container .ww-header {
+      border-bottom: 1px solid;
+      color: #487092;
+      display: inline-block;
+      font-size: 23px;
+      font-weight: 500;
+      letter-spacing: 10px;
+      line-height: 1.1;
+      margin: 2em 0 40px;
+      padding: 0 20px 20px;
+      text-transform: uppercase; }

@@ -6,10 +6,6 @@
 
 <?php get_template_part('template-part', 'billboard'); ?>
 
-<?php get_template_part('template-part', 'detail-banner'); ?>
-
-<?php get_template_part('template-part', 'below-billboard'); ?>
-
 <!-- start content container -->
 <div class="row dmbs-content">
 
@@ -32,7 +28,7 @@
             <?php get_404_template(); ?>
 
         <?php endif; ?>
-            
+
         <?php get_template_part('template-part', 'content-section'); ?>
 
     </div>
